@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body{
+   background-color: #f3f5f9;
+}
+
+.vertical-menu {
+  width: 200px; /* Set a width if you like */
+}
+
+.vertical-menu a {
+  background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a.hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+  background-color: #4CAF50; /* Add a green color to the "active/current" link */
+  color: white;
+}
+
+/*.wrapper{
+	display: flex;
+	position: relative;
+
+}
+
+.wrapper .sidebar{
+	position: fixed;
+	width: 200px;
+	height: 100%;	
+	background: black;	
+	padding: 30px;
+}
+
+.wrapper .sidebar h2{
+	color: #fff;
+	text-transform: uppercase;	
+	text-align: left;
+	margin-bottom: 30px;	
+
+}
+
+.wrapper .sidebar ul li{
+	padding: 15px;
+	border-bottom: 1px	solid rgba(0,0,0,0,0.5)
+	border-top: 1px	solid rgba(225,225,225,0.5)
+}
+
+.wrapper .sidebar ul li a{
+	color: #bdb8d7;
+	display: block;   
+}
+
+.wrapper .sidebar ul li a .fas{
+  width: 25px;
+}
+
+.wrapper .sidebar ul li:hover{
+  background-color: #594f8d;
+}
+
+.wrapper .sidebar ul li:hover a{
+  color: #fff;
+}*/
+
+
+h1 {
+  color: black;
+  text-align: center;
+  padding: 30px
+
+}
+
+h2	{
+	color: black;	
+	text-align: center;	
+	
+}
+
+img {
+	height: 300px;
+	width: 300px;
+	padding: 30px;	
+}
+}
+
+video {
+
+	padding: 20px
+}
